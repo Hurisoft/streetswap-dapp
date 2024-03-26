@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-white bg-[#15151F];
+  }
+}
+
+@layer components {
+  .btn {
+    @apply font-oswald text-sm h-fit w-fit p-2.5 uppercase rounded-lg font-bold text-center text-white align-middle transition-all cursor-pointer bg-gradient-to-b from-yellow to-orange ease-in hover:scale-110 hover:shadow-lg active:opacity-85;
+  }
+}
