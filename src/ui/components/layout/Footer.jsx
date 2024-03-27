@@ -12,9 +12,15 @@ export default function Footer() {
               Streetswap
             </h2>
             <ul className="flex flex-col gap-3">
-              <li>Home</li>
-              <li>Trade</li>
-              <li>Earn</li>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="https://dex.streetswap.io/swap">Trade</a>
+              </li>
+              <li>
+                <a href="https://dex.streetswap.io/pools">Earn</a>
+              </li>
             </ul>
           </div>
           <div>
@@ -22,19 +28,39 @@ export default function Footer() {
               $Street
             </h2>
             <ul className="flex flex-col gap-3">
-              <li>Buy $Street</li>
-              <li>BSCScan</li>
-              <li>PooCoin</li>
-              <li>DexTools</li>
+              <li>
+                <a href="/">Buy $Street</a>
+              </li>
+              <li>
+                <a href="/">BSCScan</a>
+              </li>
+              <li>
+                <a href="/">PooCoin</a>
+              </li>
+              <li>
+                <a href="/">DexTools</a>
+              </li>
             </ul>
           </div>
           <div>
             <h2 className="uppercase text-orange font-semibold mb-6">Links</h2>
             <ul className="flex flex-col gap-3">
-              <li>X (Twitter)</li>
-              <li>Telegram</li>
-              <li>Medium</li>
-              <li>Contact</li>
+              <li>
+                <a href="https://x.com/StreetSwapDEX?t=7-j6ZQd4vJh9PVXYlgNNUA&s=09">
+                  X (Twitter)
+                </a>
+              </li>
+              <li>
+                <a href="https://t.me/+hTLtimnVS1o3Njlk">Telegram</a>
+              </li>
+              <li>
+                <a href="https://medium.com/@streetswapdex">Medium</a>
+              </li>
+              <li>
+                <a href="mailto:StreetSwapDEX@gmail.com?&subject=Streetswap Enquiries">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>

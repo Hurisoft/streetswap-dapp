@@ -1,7 +1,14 @@
 /* eslint-disable react/prop-types */
-export default function FeatureCard({ bgImgUrl, btnText, title, subtitle }) {
+export default function FeatureCard({
+  bgImgUrl,
+  link,
+  btnText,
+  title,
+  subtitle,
+}) {
   return (
-    <div
+    <a
+      href={link}
       className={`bg-cover border border-orange rounded-lg p-[1.875rem]`}
       style={{ backgroundImage: `url(${bgImgUrl})` }}
     >
@@ -10,6 +17,6 @@ export default function FeatureCard({ bgImgUrl, btnText, title, subtitle }) {
         {title}
       </p>
       <p className="pt-[10px] text-sm">{subtitle}</p>
-    </div>
+    </a>
   );
 }

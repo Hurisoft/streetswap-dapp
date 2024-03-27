@@ -46,20 +46,32 @@ export default function Navbar() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/">Trade</a>
+          <a href="https://dex.streetswap.io/swap" target="_blank">
+            Trade
+          </a>
         </li>
         <li>
-          <a href="/">Earn</a>
+          <a href="https://dex.streetswap.io/pools" target="_blank">
+            Earn
+          </a>
         </li>
         <li>
           <a href="/">About</a>
         </li>
         <li>
-          <a href="/">Contact</a>
+          <a href="mailto:StreetSwapDEX@gmail.com?&subject=Streetswap Enquiries">
+            Contact
+          </a>
         </li>
       </ul>
 
-      <button className="hidden lg:block btn">Connect Wallet</button>
+      <a
+        href="https://dex.streetswap.io/"
+        target="_blank"
+        className="hidden lg:block btn"
+      >
+        Connect Wallet
+      </a>
 
       {isMenuOpen && (
         <div className="lg:hidden pl-4">
@@ -68,19 +80,22 @@ export default function Navbar() {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Trade</a>
+              <a href="https://dex.streetswap.io/swap" target="_blank">
+                Trade
+              </a>
             </li>
             <li>
-              <a href="/">Earn</a>
+              <a href="https://dex.streetswap.io/pools" target="_blank">
+                Earn
+              </a>
             </li>
             <li>
               <a href="/">About</a>
             </li>
             <li>
-              <a href="/">Contact</a>
-            </li>
-            <li className="w-full md:w-0">
-              <button className="btn w-full md:w-0">Login</button>
+              <a href="mailto:StreetSwapDEX@gmail.com?&subject=Streetswap Enquiries">
+                Contact
+              </a>
             </li>
           </ul>
         </div>

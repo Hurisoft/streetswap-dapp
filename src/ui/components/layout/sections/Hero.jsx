@@ -17,19 +17,28 @@ export default function Hero() {
           </h2>
 
           <div className="flex flex-col md:flex-row gap-3">
-            <button className="btn flex gap-1 pr-6 text-[16px]">
+            <a
+              href="https://dex.streetswap.io/swap"
+              className="btn flex gap-1 pr-6 text-[16px]"
+            >
               <span>Trade</span>
               <span>now</span>
-            </button>
-            <button className="btn flex gap-1 pr-6 text-[16px]">
+            </a>
+            <a href="/" className="btn flex gap-1 pr-6 text-[16px]">
               <span>Buy</span>
               <span>$Street</span>
-            </button>
-            <button className="btn flex gap-1  pr-6 text-[16px]">
+            </a>
+            <a
+              href="https://t.me/+hTLtimnVS1o3Njlk"
+              className="btn flex gap-1  pr-6 text-[16px]"
+            >
               <span>Join</span>
               <span>Community</span>
-            </button>
-            <button className="btn !bg-none !capitalize flex justify-between items-center gap-6 pr-6 text-[16px]">
+            </a>
+            <a
+              href="/"
+              className="btn !bg-none !capitalize flex justify-between items-center gap-6 pr-6 text-[16px]"
+            >
               <span className="flex gap-1">
                 <span>Learn</span>
                 <span>More</span>
@@ -79,7 +88,7 @@ export default function Hero() {
                   </clipPath>
                 </defs>
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <img src={logo} alt="" />
